@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
   res.write(`Math.atan() applied to ${input} is ${Math.atan(input)}\n`);
   res.write(`Math.exp() applied to ${input} is ${Math.exp(input)}\n`);
   res.write(`Math.expm1() applied to ${input} is ${Math.expm1({input})}\n`);
-  res.sendDate();
+  res.send();
 
   
 
